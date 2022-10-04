@@ -62,7 +62,11 @@ body{
     height: 100vh;
     color: white;
     border: 1px solid red;
-    margin-left: 22%;
+    margin-left: 21%;
+}
+.presentation--div{
+    margin-top: 20%;
+    margin-left: 5%;
 }
 .presentation--text{
     font-size: xx-large;
@@ -71,17 +75,20 @@ body{
     color: yellow;
 }
 .presentation--button{
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     margin-top: 10px;
-    margin-left:1%;
+    margin-left:6%;
     border-radius: 15px;
     font-size: 1.2rem;
     background-color: grey;
+    
+}
+.presentation--button__link{
     text-decoration: none;
     color: rgb(178, 178, 178);
 }
-.presentation--button:hover{
+.presentation--button:hover > .presentation--button__link{
     color: white;
     transition: 2s;
 }
